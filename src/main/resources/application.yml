@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+    datasource:
+        name: test
+        url: jdbc:mysql://localhost:3306/my_pratice
+        username: root
+        password: 123456
+
+#    mvc:
+#      view:
+#        prefix: /jsp/
+#        suffix: .jsp
+
