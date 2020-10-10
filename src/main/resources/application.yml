@@ -6,6 +6,21 @@ spring:
         url: jdbc:mysql://localhost:3306/my_pratice
         username: root
         password: 123456
+    data:
+      elasticsearch:
+        cluster-name: dachui
+        cluster-nodes: 127.0.0.1:9300
+
+
+
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.jiucheng.vo
+
+
+
 
 #    mvc:
 #      view:
